@@ -41,7 +41,6 @@ class LegacyStorage extends Gateway
             throw new RuntimeException('Invalid dbHandler passed');
         }
 
-        $this->urlGateway->setConnection($dbHandler);
         $this->dbHandler = $dbHandler;
     }
 
